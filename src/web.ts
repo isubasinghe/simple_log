@@ -5,7 +5,7 @@ export class SimpleLogWeb extends WebPlugin implements SimpleLogPlugin {
   constructor() {
     super({
       name: 'SimpleLog',
-      platforms: ['web']
+      platforms: ['web', 'android']
     });
   }
 
